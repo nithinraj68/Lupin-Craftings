@@ -6,7 +6,7 @@
 window.SITE = {
   phones: ['+91 80988 33669', '+91 94888 39214'],
   email: 'Lupincraftings@gmail.com',
-  address: '282, Tiruchengode, Tamil Nadu, India – 637209',
+  address: 'Tiruchengode, Tamil Nadu, India – 637209',
   instagram: 'https://www.instagram.com/lupin_craftings/',
   logo: 'images/lc-logo.png',
   footerText: 'Official distributor in India of SM CarDress and Tyredox. All brand names and logos belong to their owners.'

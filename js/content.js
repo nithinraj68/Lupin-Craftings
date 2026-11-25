@@ -8,6 +8,8 @@ window.SITE = {
   email: 'Lupincraftings@gmail.com',
   address: 'Tiruchengode, Tamil Nadu, India – 637209',
   instagram: 'https://www.instagram.com/lupin_craftings/',
+  instagramDM: 'https://ig.me/m/lupin_craftings',   // opens a message to your Instagram account
+  whatsapp: '918098833669',                          // country code 91 + number, no spaces or +
   logo: 'images/lc-logo.png',
   footerText: 'Official distributor in India of SM CarDress and Tyredox. All brand names and logos belong to their owners.'
 };
@@ -24,6 +26,8 @@ window.SITE = {
    ============================================================ */
 
 window.WALL_ART = {
+  priceRange: '₹3,200 – ₹6,000',            // shown on every normal model
+  priceNote: 'Price depends on the size you choose.',
   sizes: [
     { id: 's',  label: 'Small (2 ft)',       price: null },
     { id: 'm',  label: 'Medium (3 ft)',      price: null },
@@ -43,4 +47,15 @@ window.WALL_ART = {
     { id: 'custom-logo', name: 'Your Custom Logo or Personalised Metal Wall Art', img: 'images/wa-evo.jpg', alt: 'Custom logo and personalised metal wall art', custom: true,
       note: 'Club or company logo, name board, number plate, or your own idea. After adding to your cart, send your logo file or sketch and the text you want on Instagram.' }
   ]
+};
+
+/* ============================================================
+   LOGIN, REVIEWS AND SAVED ENQUIRIES (needs a free Supabase project)
+   Follow SETUP-BACKEND.md. Paste the two values from Supabase here.
+   Until you do, login and reviews show "coming soon".
+   ============================================================ */
+
+window.LC_BACKEND = {
+  url: '',      // for example 'https://abcdxyz.supabase.co'
+  anonKey: ''   // the long "anon public" key
 };

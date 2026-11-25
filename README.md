@@ -31,3 +31,9 @@ A plain HTML website. No build step, no server needed. Open `index.html` to see 
 - The contact form and cart cannot send emails or take payments. They prepare a message the customer copies and sends on Instagram. For form emails, a free service like Formspree can be added. For online payments, a shop platform (Shopify, WooCommerce) or Razorpay is needed.
 - Fonts load from Google Fonts, so the site needs internet to show them exactly.
 - Brand logos, magazine pages and the Esteem name are other companies' property. Keep permissions in order.
+
+## Login, reviews, WhatsApp
+- See `SETUP-BACKEND.md` to turn on customer login, reviews (with your approval) and saved enquiries.
+- WhatsApp number and Instagram links are set in `js/content.js` (`whatsapp`, `instagram`, `instagramDM`).
+- Wall art price range is set in `js/content.js` (`priceRange`). Put exact prices per size in `sizes` to show them instead.
+- Language: visitors can change language in the top bar. The first visit follows the browser's language. Translation is automatic by Google, so check important pages.
